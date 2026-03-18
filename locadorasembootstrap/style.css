@@ -1,0 +1,53 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f3e8ff;
+}
+
+header{
+background:#8b5cf6;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.home{
+text-align:center;
+margin-top:100px;
+}
+
+button{
+background:#a78bfa;
+border:none;
+padding:10px 20px;
+color:white;
+cursor:pointer;
+border-radius:8px;
+}
+
+#catalogo{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+padding:20px;
+justify-content:center;
+}
+
+.card{
+background:white;
+padding:10px;
+border-radius:10px;
+width:200px;
+text-align:center;
+box-shadow:0 0 5px rgba(0,0,0,0.2);
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+}
+
+.filtro{
+text-align:center;
+margin:20px;
+}
