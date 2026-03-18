@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CineLume</title>
+    <title>Catálogo CineLume</title>
 
     <link 
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -16,11 +16,11 @@
     <!-- Navbar -->
     <nav class="navbar" style="background-color: #8b5cf6;">
         <div class="container">
-            <a class="navbar-brand text-white" href="#">🎬 CineLume</a>
+            <a class="navbar-brand text-white" href="index.html">🎬 CineLume</a>
 
             <div class="navbar-nav flex-row gap-3">
-                <a class="nav-link text-white" href="#">Home</a>
-                <a class="nav-link text-white" href="catalogo.html">Catálogo</a>
+                <a class="nav-link text-white" href="index.html">Home</a>
+                <a class="nav-link text-white" href="#">Catálogo</a>
             </div>
         </div>
     </nav>
@@ -28,18 +28,93 @@
     <!-- Header -->
     <header class="bg-dark text-white text-center py-5 mb-4">
         <div class="container">
-            <h1 class="fw-light">Os melhores filmes para você!</h1>
+            <h1 class="fw-light">Catálogo de Filmes</h1>
+            <p>Escolha seu filme favorito</p>
         </div>
     </header>
 
-    <!-- Conteúdo -->
-    <div class="container text-center">
-        <h2 class="mb-3">Bem-vindo à CineLume</h2>
-        <p class="mb-4">Explore nosso catálogo e alugue seus filmes favoritos</p>
+    <!-- Filtro -->
+    <div class="container mb-4">
+        <input type="text" class="form-control" placeholder="Buscar filme...">
+    </div>
 
-        <a href="catalogo.html" class="btn btn-primary px-4">
-            Ver Catálogo
-        </a>
+    <!-- Filmes -->
+    <div class="container">
+        <div class="row">
+
+            <!-- Filme 1 -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://m.media-amazon.com/images/I/91sRbgzDxyL._AC_SL1500_.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Vingadores</h5>
+                        <p class="text-muted">Ação</p>
+                        <button class="btn btn-success w-100">Alugar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filme 2 -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://www.themoviedb.org/t/p/original/As0zX43h3w6kD2NS4uVHu9HKdEh.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Titanic</h5>
+                        <p class="text-muted">Romance</p>
+                        <button class="btn btn-success w-100">Alugar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filme 3 -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://br.web.img2.acsta.net/pictures/210/166/21016629_2013062820083878.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Invocação do Mal</h5>
+                        <p class="text-muted">Terror</p>
+                        <button class="btn btn-success w-100">Alugar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filme 4 -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.WqHM8kYG1Iy0aXpUHm4AxgHaLH?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Homem-Aranha</h5>
+                        <p class="text-muted">Ação</p>
+                        <button class="btn btn-success w-100">Alugar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filme 5 -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://image.tmdb.org/t/p/original/h2uN3MVsyCZjBS1CSqUpOrQ1XWb.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Frozen</h5>
+                        <p class="text-muted">Animação</p>
+                        <button class="btn btn-success w-100">Alugar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filme 6 -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://www.ultimatequizquestions.com/wp-content/uploads/2022/01/jurassic-park-trivia-questions.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Jurassic Park</h5>
+                        <p class="text-muted">Aventura</p>
+                        <button class="btn btn-success w-100">Alugar</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
